@@ -1,0 +1,95 @@
+.submit-button {
+  color: white;
+  background-color: rgba(14, 12, 12, 0.877);
+  width: 50%;
+  border: none;
+  margin-top: 10px;
+  height: 25px;
+}
+.search-input {
+  justify-content: left;
+  width: 50%;
+  text-align: center;
+  height: 20px;
+  border-color: rgba(82, 78, 78, 0.151);
+  margin-top: 20px;
+}
+.submitbutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: 10px;
+  text-align: center;
+  max-width: 100%;
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  /* screen and  */
+  .main {
+    display: grid;
+    column-gap: 0.01em;
+    row-gap: 20px;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  /* screen and  */
+  .main {
+    display: grid;
+    column-gap: 0.01em;
+    row-gap: 20px;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+  }
+}
+.card {
+  padding-top: 20px;
+  box-shadow: 1px 2px 2px 2px rgba(110, 104, 104, 0.37);
+  margin: 2px 20px 20px 20px;
+  width: 150px !important;
+}
+
+.bodycard {
+  width: 80%;
+  height: 80%;
+  padding: 2px 2px 2px 20px;
+  text-align: center;
+}
+img {
+  border-radius: 100%;
+  height: 50%;
+  width: 50%;
+}
+.login {
+  margin-top: 10px;
+}
+
+.clearbutton {
+  color: rgb(0, 0, 0);
+  background-color: rgba(114, 97, 97, 0.877);
+  width: 50%;
+  border: none;
+  margin-top: 10px;
+  height: 25px;
+  display: block;
+}
+.More {
+  color: white;
+  background-color: black;
+  border: none;
+  margin-top: 20px;
+}
+.error {
+  align-items: center;
+}

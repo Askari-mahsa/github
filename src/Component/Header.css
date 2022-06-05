@@ -1,0 +1,57 @@
+span .fa-github {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+#logo {
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+}
+
+.fa-github {
+  color: white;
+  display: flex;
+}
+.App-header {
+  background-color: #dc3545;
+  display: flex;
+  min-height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 10px;
+}
+.title-header {
+  color: white;
+}
+
+ul li a {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  /* pointer-events: none; */
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+li {
+  display: inline;
+  margin-left: auto;
+}
+.nav {
+  display: flex;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav {
+  }
+  .App-header {
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column;
+  }
+}
