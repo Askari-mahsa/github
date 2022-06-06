@@ -7,12 +7,15 @@
   height: 25px;
 }
 .search-input {
-  justify-content: left;
-  width: 50%;
+  width: 300px;
+  padding: 20px 0;
   text-align: center;
   height: 20px;
-  border-color: rgba(82, 78, 78, 0.151);
-  margin-top: 20px;
+  outline: none;
+  border: none;
+  margin-top: 40px;
+  box-shadow: inset 0 -3em 3em rgba(132, 174, 214, 0.1), 0 0 0 2px rgb(189, 139, 139),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 .submitbutton {
   display: flex;
